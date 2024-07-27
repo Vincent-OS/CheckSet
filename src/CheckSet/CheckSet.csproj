@@ -35,5 +35,13 @@
       Hosting;
     </UnoFeatures>
   </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Assets\MSStore\PackageLogo.scale-200.png" />
+    <None Remove="Assets\MSStore\PackageLogo.scale-400.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Pages\" />
+    <Folder Include="Scripts\" />
+  </ItemGroup>
 
 </Project>
